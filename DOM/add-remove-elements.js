@@ -6,4 +6,4 @@ novoParagrafo.textContent = "Paragráfo criado via JS"; // Põe um conteúdo no 
 
 secao[0].appendChild(novoParagrafo);
 
-formularioElemento.removeChild(labelElemento);
+formularioElemento.removeChild(labelElemento); // Remove o elemento label do formulário
