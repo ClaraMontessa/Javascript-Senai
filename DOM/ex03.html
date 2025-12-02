@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicío</title>
+</head>
+
+<body>
+    <button onclick="voltarPagina ()"> Voltar</button>
+    <button onclick="mostrarLoc ()"> Mostrar a loc</button>
+    <button onclick="fecharPagina ()"> Fechar a página</button>
+
+
+</body>
+<script>
+
+    function voltarPagina() {
+        window.history.back()
+    }
+    function mostrarLoc() {
+        alert("Sua página está localizada: " + window.location)
+    }
+    function fecharPagina() {
+        window.close()
+    }
+
+</script>
+
+</html>

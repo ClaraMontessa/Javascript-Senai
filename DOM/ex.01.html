@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Exercício</h1>
+
+  
+ <p id="meuParagrafo"> A Emilly Nascida tem dificuldade de aceitar a verdade! </p>
+
+  <button onclick="alterarTexto()">Alterar texto</button>
+   
+
+</body>
+<script>
+    function alterarTexto() {
+        // Selecionar o elemento P e Alterar o texto
+        let paragrafo = window.document.getElementById("meuParagrafo")
+        paragrafo.innerText = "Texto alterado"
+    }
+</script>
+
+</html>
